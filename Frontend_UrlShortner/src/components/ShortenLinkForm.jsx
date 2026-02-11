@@ -9,7 +9,7 @@ const ShortenLinkForm = () => {
     e.preventDefault();
     try {
       const res = await axios.post(
-        `${import.meta.process.env.VITE_API_BASE_URL}/api/v1/url/shortener`,
+        `${import.meta.env.VITE_API_BASE_URL}/api/v1/url/shortener`,
         { longUrl: url },
       );
       console.log("Hyy here is short url:", res.data.url);

@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "./components/Navbar.jsx";
 import About from "./components/About.jsx";
 import Features from "./components/Features.jsx";

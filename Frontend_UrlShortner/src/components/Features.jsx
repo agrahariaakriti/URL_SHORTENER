@@ -1,4 +1,3 @@
-import React from "react";
 import ShortenLinkForm from "./ShortenLinkForm.jsx";
 import InfoPanel from "./InfoPanel.jsx";
 
