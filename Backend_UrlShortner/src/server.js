@@ -7,7 +7,8 @@ const app = express();
 app.use(
   cors({
     origin: [
-      "http://localhost:5173",
+      "https://miniurlcom.netlify.app" ,
+      // "http://localhost:5173",
       // "https://earnest-toffee-6a5983.netlify.app",
     ],
     credentials: true,
