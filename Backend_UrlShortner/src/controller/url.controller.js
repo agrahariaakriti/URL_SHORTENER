@@ -31,7 +31,13 @@ const shortener_ctrl = async (req, res) => {
 
   const newUrl = await create_url(longUrl, code, shortUrl);
 
-  return res.status(200).json({ msg: "SUCCESSFULL", short_url: shortUrl });
+  return res
+    .status(200)
+    .json({
+      msg: "SUCCESSFULL",
+      short_url: shortUrl,
+      code: process.env.BASE_URL,
+    });
 };
 // ==============================================================
 //
@@ -53,7 +59,6 @@ const click_short_url_ctrl = async (req, res) => {
 // ==============================================================
 
 const shorte_url_analytic = async (req, res) => {
-
   const code = req.params.code;
   if (!code) {
     return res.status(400).json({ message: "SHORT URL REQUIRED" });
