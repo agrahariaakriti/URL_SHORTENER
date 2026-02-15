@@ -14,6 +14,7 @@ const longUrlSchema = new mongoose.Schema(
       type: String,
       require: true,
     },
+    visitedHistory: [{ timestamp: { type: Number } }],
   },
   { timestamps: true },
 );
