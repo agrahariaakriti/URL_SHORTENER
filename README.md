@@ -99,5 +99,3 @@ routes/    → API routes
 **Aakriti Agrahari**
 LinkedIn: [LinkedIn Link]
 
-```
-```
