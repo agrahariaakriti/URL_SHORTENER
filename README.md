@@ -97,5 +97,4 @@ routes/    → API routes
 ## Author
 
 **Aakriti Agrahari**
-LinkedIn: [LinkedIn Link]
-
+LinkedIn: [LinkedIn Link](https://www.linkedin.com/in/aakriti-agrahari/)
